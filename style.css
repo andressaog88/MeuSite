@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(149, 128, 166);
+    padding-top: 80px; /* Altura do menu */
+      
+}
+
+form{
+   margin: 2%
+}
+
+.header {
+    position: fixed;
+    top: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 100%;
+}
+.menu {
+    background-color: #2e2e2e;
+    text-align: center;
+    
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a {
+    display: block;
+    color: #FFFFFF;
+    padding: 30px 10px;
+    
+}
+.main {
+    padding: 50px 0px;
+}
+.content {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    background-color: #eff0f1;
+    height: 1000px;
+}
+
+/* Classe base do carousel */
+.carousel {
+    margin-bottom: 4rem;
+  }
+  
+   
+  /* Declaramos alturas, devido ao posicionamento do elemento img */
+  .carousel-item {
+    height: 50rem;
+    background-color: #777;
+  }
+  .carousel-item > img {
+    position: relative;
+    margin: auto;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 50rem;
+  }
+
+  row featurette{
+    border: 2px dotted rgb(255, 255, 255);
+    border-radius: 6px;
+  }
+
+  /*img{
+    border: 2px dotted rgb(255, 255, 255);
+    border-radius: 6px;*/
+  
+  /* CONTEÚDO DO MARKETING
+-------------------------------------------------- */
+
+/* Alinha, centralmente, o texto dentro das três colunas abaixo do carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
+
+.footer {
+    background-color: #eff0f1;
+    text-align: center;
+    padding: 50px 0;
+}
+  
+.navbar navbar-expand-md navbar-dark fixed-top bg-dark{
+text-align: center;
+
+
+}
